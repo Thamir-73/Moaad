@@ -4,13 +4,10 @@ import Image from 'next/image';
 import { useLanguage } from '../LanguageContext';
 
 
-
-
 export default function Navbar() {
   const { language, setLanguage } = useLanguage();
 
 
-  
   const FlagIcon = ({ country }) => {
     if (country === 'gb') {
       return (

@@ -3,6 +3,7 @@ import "./globals.css";
 import { LanguageProvider } from './LanguageContext';
 import dynamic from 'next/dynamic';
 
+
 export const metadata = {
   title: "معاد",
   description: "مُعاد هي منصة مبتكرة تربط بين الشركات والمصانع لتبسيط عملية إعادة تدوير النفايات.",

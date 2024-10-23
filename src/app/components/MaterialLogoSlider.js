@@ -7,6 +7,8 @@ import { FaBottleWater } from "react-icons/fa6";
 import { TfiPackage } from "react-icons/tfi";
 import { FaBoxOpen } from "react-icons/fa";
 import { motion } from 'framer-motion';
+import { GiFruitBowl } from "react-icons/gi";
+
 
 const recyclableMaterials = [
   {
@@ -24,6 +26,10 @@ const recyclableMaterials = [
   {
     name: { en: "Cartons", ar: "كرتون" },
     icon: FaBoxOpen,
+  },
+  {
+  name: { en: "Organic Material", ar: "المواد العضوية" },
+  icon: GiFruitBowl,
   }
 ];
 
